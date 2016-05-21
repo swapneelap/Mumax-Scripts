@@ -3,8 +3,8 @@ SetGridSize(450, 250, 16)
 SetCellSize(2e-9, 2e-9, 2e-9)
 
 //Defining the geomatery of the simulation------------------------|
-defregion(0, imageshape("required image"))
-defregion(1, imageshape("required image").inverse())
+defregion(0, imageshape("frac4.png"))
+defregion(1, imageshape("frac4.png").inverse())
 
 //Defining the initial direction of magnetization-----------------|
 m = randomMag()
